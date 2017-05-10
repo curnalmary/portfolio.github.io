@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>portfolio</title>
+	<link rel="stylesheet" type="text/css" href="eastportfolio.css">
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.js"> </script>
+
+	<script>
+
+$(document).ready(function(){
+$("#arrow2").mouseover(function(){
+
+		$("#diamond1,#diamond2,#diamond3").animate({"left":"600px"},1000,function(){
+
+
+$("h1").hide();
+$("#hide2").show();
+$("#hide").hide();
+
+});
+
+
+});
+
+$("#diamond2").mouseover(function(){
+		$("#diamond1,#diamond2,#diamond3").animate({"left":"0px"},1000,function(){;
+$("h1").show();
+$("#hide").hide();
+$("#hide2").hide();
+});
+	});
+$("#arrow").mouseover(function(){
+		$("#diamond1,#diamond2,#diamond3").animate({"left":"-400px"},1000,function(){
+$("h1").hide();
+$("#hide2").hide();
+$("#hide").show();
+
+
+});
+});
+});
+
+	</script>
+
+<style>
+	
+
+inside{
+ width: 100%;
+ height: 820px;
+ border:0px solid green ;
+background-color: #F1F1F1;
+ margin-top: -150px;
+
+}
+#inside2{
+	width: 100%;
+	height: 750px;
+	border: 0px solid black;
+	margin-top: 0PX;
+margin-left: -20px;
+}
+
+
+#person{
+	transform: rotate(-45deg);
+	margin-left: 120px;
+	width: 100px;
+	height: 300px;
+	position:relative;
+}
+#arnd2{
+transform: rotate(-45deg);
+	margin-top: 100px;
+position:relative;
+	width: 1300px;
+	height: 500px;
+	border: 0px solid white;
+	display: inline-block;
+	margin-left: 100px;
+}
+#square1{
+	border-radius: 100%;
+	margin-top: 100px;
+position:absolute;
+	width: 300px;
+	height: 300px;
+	border:  3px solid white;
+	display: inline-block;
+	margin-left: -30px;
+}
+#square2{
+margin-left: 370px;
+	margin-top:100px;
+position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 3px solid white;
+	display: inline-block;
+	border-radius: 100%;
+}
+#square3{
+	margin-left: 820px;
+	margin-top:100px;
+position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	border: 3px solid white;
+	display: inline-block;
+}
+
+.arnd{
+	
+	margin-left: 0px;
+	background-size: 100%,700px;
+	height: 700px;
+margin-top: 0px;
+	width: 100%;
+overflow-x: hidden;
+overflow-y: hidden;
+	overflow: hidden;
+	border: 0px solid #c9a9b2;
+
+}
+
+img{
+	
+	width: 700px;
+	height: 700px;
+position: absolute;
+margin-top: -200px;
+margin-left: 0px;
+}
+img #bottom2{
+position: relative;
+	width: 700px;
+	height: 700px;
+margin-top: 470px;
+margin-left: 0px;
+}
+#fash{
+	
+	width: 700px;
+	height: 700px;
+	margin-left: -200px;
+	margin-top: 0px;
+
+}
+
+
+
+
+#diamond1{
+	position: relative;
+	display: inline-block;
+	width: 600px;
+	height: 500px;
+	border:0px solid black;
+	margin-left: -200PX;
+	margin-top: 230PX;
+	overflow:hidden;
+	z-index: 1px;
+
+
+}
+
+#diamond2{
+	position: relative;
+	display: inline-block;
+	width: 500px;
+	height: 550px;
+	border:0px solid pink;
+	margin-left: 450PX;
+	margin-top:-1265px;
+	overflow:hidden;
+	z-index: 1px;
+}
+
+#diamond3{
+	position: relative;
+
+	display: inline-block;
+	width: 600px;
+	height: 500px;
+	border:0px solid black;
+	margin-left: 1000PX;
+	margin-top:-600PX;
+	overflow:hidden;
+	z-index: 1px;
+	
+}
+
+
+hover:#diamond1,#diamond2,#diamond3{
+border-radius: 100%;
+
+
+}
+
+#logo{
+
+	margin-top:20px; 
+	width: 250px;
+height: 250px;
+
+margin-left: 620px;
+}
+
+
+h1{
+	display: inline-block;
+	background-color: black;
+	border: 3px solid white;
+position: absolute;
+	text-align: center;
+	font-size: 130px;
+	font-family:goldoni;
+	letter-spacing: 6px;
+margin-top: -350px;
+margin-left: -730px;
+color: white;
+z-index: 1px;
+width: 900px;
+padding: 30px;
+
+}
+#back{
+
+position:absolute;
+	font-size: 70px;
+	width: 500px;
+padding: 40px;
+background-color: black;
+border: 1px solid black;
+opacity: 0.7;
+	margin-top:-10px;
+margin-left: -150px;	
+}
+#hide2{
+		display: inline-block;
+	background-color: black;
+	border: 3px solid white;
+
+	text-align: center;
+	font-size: 130px;
+	font-family:goldoni;
+	letter-spacing: 6px;
+margin-top: -350px;
+margin-left: 230px;
+color: white;
+z-index: 1px;
+width: 900px;
+padding: 30px;
+display: none;
+}
+#arrow{
+	width: 70px;
+	height: 70px;
+	margin-top: -300px;
+	margin-left: 1200px;
+}
+#arrow2{
+	transform: rotate(-180deg);
+	width: 70px;
+	height: 70px;
+	margin-top: -300px;
+	margin-left: 100px;
+}
+
+
+#hide{
+		display: inline-block;
+	background-color: black;
+	border: 3px solid white;
+
+	text-align: center;
+	font-size: 100px;
+	font-family:goldoni;
+	letter-spacing: 6px;
+margin-top: -350px;
+margin-left: 430px;
+color: white;
+z-index: 1px;
+width: 870px;
+padding: 40px;
+display: none;
+
+}
+
+p{
+		font-family: carolina hills personal use;
+margin-top: 40px;
+	text-align: center;
+position: absolute;
+color: BLACK;
+	margin-left: 25px;
+	font-size: 30px;
+margin-top: 200px;
+}
+#line{
+	margin-top: 230px;
+border-bottom: 1px solid white;
+margin-left: 225px;
+	width: 1000PX;
+	
+}
+#icon{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin-left: 1300px;
+	margin-top:50px;
+
+
+}
+
+
+
+
+
+	
+</style>
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div class="arnd">
+
+
+<div class="inside">
+
+
+<div id="inside2">
+
+
+
+<a href="#"><img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" id="icon"></a>
+
+
+<a href="#">
+<div id="diamond1">
+	
+	
+<img src="burgerbw.png" id="bottom2">
+
+
+
+</div>
+
+</a>
+<a href="">
+<div id="diamond3">
+
+
+
+	<img src="https://drive.google.com/open?id=0B0IPncS1H6oQQzA5RXVfZ0MtRUE" id="bottom" >
+
+
+
+</div>
+
+</a>
+
+
+
+<a href="#">
+<div id="diamond2">
+
+	<img src="sunsetbw.jpg" id="fash">
+
+	
+
+</div>
+</a>
+<h1>sahari</h1>
+
+<h1 id="hide">step by step</h1>
+<h1 id="hide2">hollys</h1>
+</div>
+
+
+<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png" id="arrow">
+
+<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-128.png" id="arrow2">
+
+
+
+</div>
+
+</div>
+
+
+
+	
+
+
+
+
+</body>
+</html>
