@@ -5,8 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="eastportfolio.css">
 
 
-
-	<script>
+<script type="text/javascript"></script>
+	<script >
 
 $(document).ready(function(){
 $("#arrow2").mouseover(function(){
@@ -345,8 +345,6 @@ margin-left: 225px;
 
 
 
-<a href="#"><img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" id="icon"></a>
-
 
 <a href="hollysportfolio.html">
 <div id="diamond1">
@@ -378,7 +376,7 @@ margin-left: 225px;
 
 <div id="diamond2">
 
-	<img src="sunsetbw.jpg" id="fash">
+	<img src="sunsetbw.JPG" id="fash">
 
 	
 
@@ -401,6 +399,15 @@ margin-left: 225px;
 
 </div>
 
+
+
+	
+
+
+
+
+</body>
+</html>
 
 
 	
