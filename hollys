@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hollys</title>
+<style type="text/css">
+	
+#top{
+	width: 1350px;
+	
+	height: 350px;
+	border: 1px solid black;
+	background-color: black;
+}
+h1{
+	margin-top: 150PX;
+	text-align: center;
+	color: white;
+	font-family:AR DECODE;
+	font-size: 3em;
+}
+h2{
+	margin-top: 70px;
+	font-family: courier;
+margin-left: 600px
+}
+p{
+
+margin-left: 200px;
+width: 1000px;
+}
+#back{
+	margin-left: 5px;
+text-align: left;
+	color: white;
+}
+#photo{
+	border: 1px solid black;
+	width: 1100px;
+	height: 500px;
+	margin-left: 120px;
+	margin-top: 40px;
+}
+#arrow{
+	margin-left: 40px;
+	margin-top: -40px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+
+</style>
+</head>
+<body>
+<div id="top">
+
+
+
+<a href="eastportfolio.html"><p id="back">back</p><img src="arroww.png" id="arrow"></a>
+	<h1>Maryam Curnal</h1>
+
+</div>
+<h2>hollys</h2>
+<p>hollys is a mockup i created intended to be used for an artist or a blog like style  that would be both visually appealing while also being fairly simple to navigate</p>
+<img src="mockup1.jpg" id="photo">
+</body>
+</html>
