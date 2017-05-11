@@ -298,7 +298,7 @@ $("#hide").hide();
 });
 
 
-});
+
 
 $("#diamond2").mouseover(function(){
 		$("#diamond1,#diamond2,#diamond3").animate({"left":"0px"},1000,function(){;
